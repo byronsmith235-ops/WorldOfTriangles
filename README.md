@@ -1,5 +1,5 @@
 # VTMsite
-
+STOLEN FROM DR SHARKY'S VTM SITE: THEIR README IS::::
 Made from scratch with AngularJS, Bootstrap, and FontAwesome.
 Goal is to create a site for Vampire: The Masquerade where people can use an interactive character creator.
 Using AngularJS to make it nice and responsive.
@@ -18,7 +18,8 @@ I'll make a different (and probably simpler) set of guidelines for contributing 
 
 ### Copyright Stuff
 
-The webpage and code content is my own work. The fictional universe of the World of Darkness & Vampire: The Masquerade are not my own.
+The webpage and code content is my own work. The fictional universe and rulesets of the World of Darkness & Vampire: The Masquerade are not my own. 
+[ME]: The universe, ARC system, and associated rulesets/information from Triangle Agency are not my own either. (
 
 ![DarkPack](https://github.com/DrSharky/VTMsite/blob/master/DarkPack_Tranparent_Logo.png)
 

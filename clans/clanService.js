@@ -6,78 +6,71 @@ app.service("ClanService", function(){
 
   this.clanFilters =
   [
-    "All", "Thirteen", "Camarilla", "Sabbat", "Independent", "All Clans",
-    "All Bloodlines", "Camarilla (clans only)", "Sabbat (clans only)",
-    "Dark Ages", "High Clans", "Low Clans"
+    "All", "Core Rulebook", "Amaranth Folder", "Zine", "Misc"
   ];
 
   this.clanList = [{
       id: 0, name: "Ahrimanes",
-      filters: ["Sabbat", "All Bloodlines", "Dark Ages"],
+      filters: ["All"],
       disciplines: ["Animalism", "Potence", "Spiritus"]
     },
     {
       id: 1, name: "Anda",
-      filters: ["Independent", "All Bloodlines", "Dark Ages"],
+      filters: ["All"],
       disciplines: ["Animalism", "Fortitude", "Protean"]
     },
     {
       id: 2, name: "Assamite",
-      filters: ["Thirteen", "Independent", "All Clans",
-        "Low Clans", "Dark Ages"
-      ],
+      filters: ["All"],
       disciplines: ["Celerity", "Obfuscate", "Quietus"]
     },
     {
       id: 3, name: "Baali",
-      filters: ["Independent", "All Bloodlines", "Dark Ages"],
+      filters: ["All"],
       disciplines: ["Daimonion", "Obfuscate", "Presence"]
     },
     {
       id: 4, name: "Blood Brothers",
-      filters: ["Sabbat", "All Bloodlines"],
+      filters: ["All"],
       disciplines: ["Fortitude", "Potence", "Sanguinus"]
     },
     {
       id: 5, name: "Brujah",
-      filters: ["Thirteen", "Camarilla", "All Clans",
-                "Camarilla (clans only)", "High Clans", "Dark Ages"],
+      filters: ["All"],
       disciplines: ["Celerity", "Potence", "Presence"]
     },
     {
       id: 6, name: "Caitiff",
-      filters: ["All Clans", "Dark Ages"],
+      filters: ["All"],
       disciplines: []
     }, {
       id: 7, name: "Cappadocian",
-      filters: ["All Clans", "Dark Ages", "High Clans"],
+      filters: ["All"],
       disciplines: ["Auspex", "Fortitude", "Necromancy"]
     },
     {
       id: 8, name: "Children of Osiris",
-      filters: ["All Bloodlines", "Dark Ages"],
+      filters: ["All"],
       disciplines: ["Bardo", "2 other disciplines learned from original clan"]
     },
     {
       id: 9, name: "Daughters of Cacophony",
-      filters: ["All Bloodlines"],
+      filters: ["All"],
       disciplines: ["Fortitude", "Melpominee", "Presence"]
     },
     {
       id: 10, name: "Followers of Set",
-      filters: ["Thirteen", "Independent", "All Clans", "Dark Ages",
-                "Low Clans"],
+      filters: ["All"],
       disciplines: ["Obfuscate", "Presence", "Serpentis"]
     },
     {
       id: 11, name: "Gargoyles",
-      filters: ["All Bloodlines"],
+      filters: ["All"],
       disciplines: ["Flight", "Fortitude", "Potence", "Visceratika"]
     },
     {
       id: 12, name: "Gangrel",
-      filters: ["Thirteen", "Independent", "All Clans", "Low Clans",
-                "Dark Ages"],
+      filters: ["All"],
       disciplines: ["Animalism", "Fortitude", "Protean"]
     },
     {
